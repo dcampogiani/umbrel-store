@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+  server:
+    image: josh5/unmanic:0.4.0.post23
+    container_name: devstore-unmanic
+    restart: on-failure
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Rome
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/config
+      - ${UMBREL_ROOT}/data/storage/downloads:/library
+    ports:
+      - "8888:8888"

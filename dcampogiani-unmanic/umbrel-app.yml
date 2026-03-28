@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: dcampogiani-Unmanic
+name: Unmanic
+tagline: The Ultimate Library Optimiser Tool
+icon: https://docs.unmanic.app/img/icon.png
+category: media
+version: "1.0.0"
+port: 8888
+description: >-
+  Unmanic gives you the power to automate the management of your file library.
+
+
+  Easily organise, convert, and manage files to suit your needs
+
+developer: dcampogiani
+website: https://github.com/josh5/unmanic
+submitter: dcampogiani
+submission: https://github.com/dcampogiani/umbrel-store
+repo: https://github.com/josh5/unmanic
+support: https://github.com/josh5/unmanic/issues
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
