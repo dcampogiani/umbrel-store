@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: podsync_server_1
+      APP_PORT: 8080
+
+  server:
+    image: ghcr.io/mxpv/podsync:latest
+    restart: on-failure
+    ports:
+      - "8081:8080"
+    volumes:
+      - ${APP_DATA_DIR}/data:/app/data
+    networks:
+      default:
+        ipv4_address: $APP_PODSYNC_IP
