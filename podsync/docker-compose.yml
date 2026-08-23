@@ -13,6 +13,7 @@ services:
       - "8082:8080"
     volumes:
       - ${APP_DATA_DIR}/data:/app/data
+      - ${APP_DATA_DIR}/config.toml:/app/config.toml
     networks:
       default:
         ipv4_address: $APP_PODSYNC_IP
