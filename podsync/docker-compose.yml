@@ -10,7 +10,7 @@ services:
     image: ghcr.io/mxpv/podsync:latest
     restart: on-failure
     ports:
-      - "8081:8080"
+      - "8082:8080"
     volumes:
       - ${APP_DATA_DIR}/data:/app/data
     networks:
