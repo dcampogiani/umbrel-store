@@ -1,5 +1,5 @@
 id: "dcampogiani"
 name: "dcampogiani"
 apps:
-  - id: podsync
+  - id: dcampogiani-podsync
     version: "latest"
