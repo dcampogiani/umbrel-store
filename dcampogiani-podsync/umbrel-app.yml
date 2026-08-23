@@ -1,10 +1,30 @@
 manifestVersion: 1
 id: dcampogiani-podsync
-category: media
 name: Podsync
-version: "latest"
-description: "Transforms YouTube channels into audio podcast feeds. Exposes port 8082 for direct proxy bypass."
-developer: "mxpv (Custom Store)"
-website: "https://github.com/mxpv/podsync"
-submitter: "Custom Store"
+tagline: Turn YouTube or Vimeo channels, users, or playlists into podcast feeds
+icon: https://github.com/mxpv/podsync/raw/main/docs/img/logo.png
+category: media
+version: "1.0.0"
 port: 8080
+description: >-
+  Podsync - is a simple, free service that lets you listen to any YouTube / Vimeo channels, playlists or user videos in podcast format.
+
+
+  Podcast applications have a rich functionality for content delivery - automatic download of new episodes, remembering last played position, sync between devices and offline listening.
+
+developer: mxpv
+website: https://github.com/mxpv/podsync
+submitter: dcampogiani
+submission: https://github.com/dcampogiani/umbrel-store
+repo: https://github.com/mxpv/podsync
+support: https://github.com/mxpv/podsync/issues
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
