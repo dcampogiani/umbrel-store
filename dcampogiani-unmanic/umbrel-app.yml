@@ -4,7 +4,7 @@ name: Unmanic
 tagline: The Ultimate Library Optimiser Tool
 icon: https://docs.unmanic.app/img/icon.png
 category: media
-version: "1.0.0"
+version: "1.0.1"
 port: 8888
 description: >-
   Unmanic gives you the power to automate the management of your file library.

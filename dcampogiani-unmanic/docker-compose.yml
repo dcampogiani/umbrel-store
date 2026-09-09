@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   server:
-    image: josh5/unmanic:0.4.0.post23
+    image: josh5/unmanic:0.4.1
     container_name: devstore-unmanic
     restart: on-failure
     environment:
